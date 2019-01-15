@@ -1,4 +1,4 @@
-package Pickupthebamboo;
+package pickupthebamboo;
 
 public class Test {
     public static void show(Queue player){

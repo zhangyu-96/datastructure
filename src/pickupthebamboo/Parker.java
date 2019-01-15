@@ -1,4 +1,4 @@
-package Pickupthebamboo;
+package pickupthebamboo;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package Pickupthebamboo;
+package pickupthebamboo;
 
 public class Stack {
     Parker[] tableparks = new Parker[35];

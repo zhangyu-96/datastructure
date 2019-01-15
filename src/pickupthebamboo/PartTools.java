@@ -1,18 +1,17 @@
-package Pickupthebamboo;
+package pickupthebamboo;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.Map;
 
 public class PartTools {
-    public static ArrayList<Parker> makeparks(){ //实现生成牌（初始化）功能
-        ArrayList<Parker> parkers = new ArrayList<>();
+    public static ArrayList<pickupthebamboo.Parker> makeparks(){ //实现生成牌（初始化）功能
+        ArrayList<pickupthebamboo.Parker> parkers = new ArrayList<>();
         String[] numbers = {"1","2","3","4","5","6","7","8","9"};
         String[] colors = {"♥","♠","♦","♣"};
         for (String number : numbers) {
             for (String color : colors) {
-                parkers.add(new Parker(number,color));
+                parkers.add(new pickupthebamboo.Parker(number,color));
             }
         }
         Collections.shuffle(parkers);

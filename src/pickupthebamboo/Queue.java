@@ -1,7 +1,6 @@
-package Pickupthebamboo;
+package pickupthebamboo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Queue {
     Parker parkers[] = new Parker[1000]; //玩家牌的队列
